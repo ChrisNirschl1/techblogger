@@ -10,5 +10,6 @@ router.use('/posts', postRoutes);
 router.get('/',(req, res) => {
     res.send("apiRoutes/index.js has been reached.")
 })
+//^reachedby localhost:3000/api
 
 module.exports = router;

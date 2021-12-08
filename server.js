@@ -29,8 +29,8 @@ const {User, Post, Comment} = require('./models');
 
 // app.use(session(sess));
 // // Sets up the Express app to handle data parsing
-// app.use(express.urlencoded({ extended: true }));
-// app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 // // Static directory
 // app.use(express.static('public'));
