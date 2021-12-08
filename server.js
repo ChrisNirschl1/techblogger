@@ -11,7 +11,8 @@ const sequelize = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3000;
 // Requiring our models for syncing
-// const {User,Post,Opinion} = require('./models');
+const {User, Post, Comment} = require('./models');
+
 
 
 // const sess = {
