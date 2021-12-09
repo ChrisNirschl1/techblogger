@@ -47,6 +47,6 @@ app.use('/',allRoutes);
 
 sequelize.sync({ force: false }).then(function() {
     app.listen(PORT, function() {
-    console.log('You have tuned in to the sweet sounds of PORT ' + PORT);
+    console.log(' PORT ' + PORT);
     });
 });
