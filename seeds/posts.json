@@ -1,26 +1,24 @@
 [
     {
-        "id": 1,
-        "user_id": 0,
+        
         "content": "This was ok",
         "title": "Not a fan of tech"
     },
     {
-        "id": 2,
-        "user_id": 1,
+       
         "content": "Top tier",
         "title": "Big tech fan"
     },
     {
-        "id": 3,
-        "user_id": 2,
+      
         "content": "very bad",
         "title": "Love tech, hate blogging"
     },
     {
-        "id": 4,
-        "user_id":3,
+      
         "content": "Could be worse",
         "title": "Love blogging, hate tech"
     }
     ]
+
+  

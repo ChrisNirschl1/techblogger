@@ -2,25 +2,25 @@
     {
         "like": 1,
         "review": "Great call buddy",
-        "user_id": 2,
-        "postId": 3
+        "UserID": 2,
+        "PostID": 3
     },
     {
         "like": 2,
         "review": "Nice call champ",
-        "user_id": 3,
+        "UserID": 3,
         "postId": 4
     },
     {
         "like": 3,
         "review": "Doxxed",
-        "user_id": 4,
+        "UserID": 4,
         "postId": 1
     },
     {
         "like": 4,
         "review": "Not a fan of yours",
-        "user_id": 3,
+        "UserID": 3,
         "postId": 2
     }
 ]
