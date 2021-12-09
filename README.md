@@ -5,6 +5,9 @@
 
 The start of a new tech blog, with login, logout and new user creation.
 
+       
+  The deployed project: https://nirschlbloghw.herokuapp.com/
+
 ![badge](https://img.shields.io/badge/license-MIT-green)
 
 
