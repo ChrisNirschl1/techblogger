@@ -14,11 +14,11 @@ router.get("/", (req, res) => {
         });
 });
 
-// router.get("/logout", (req, res) => {
-//     req.session.destroy(() => {
-//         res.json({ msg: "Session has been deleted." })
-//     });
-// });
+router.get("/logout", (req, res) => {
+    req.session.destroy(() => {
+        res.json({ msg: "Session has been deleted." })
+    });
+});
 
 router.get("/:id", (req, res) => {
     User.findByPk(req.params.id)
