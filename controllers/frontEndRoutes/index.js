@@ -7,6 +7,9 @@ router.get("/", (req, res)=> {
  })
 
 router.get("/posts", (req, res)=>{
+    if(!req.session.user){
+        return res.redirect(`/login`)
+    }
     Post.findAll().then(postData=>{
         console.log(postData)
         console.log("========")
@@ -16,6 +19,14 @@ router.get("/posts", (req, res)=>{
            post:hbsPostData 
         })
     })
+})
+
+router.get("/login", (req,res)=>{
+    if(req.session.user){
+        return res.redirect(`/posts`)
+
+    }
+    return res.render("login")
 })
 
 module.exports = router;
